@@ -1,0 +1,76 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+  padding-bottom: 15px;
+}
+
+.container-content {
+  padding-bottom: 15px;
+}
+
+.content {
+  background-color: darkgray;
+  height: 1000px;
+}
+
+.nav>li {
+  border-top: 1px solid black;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-default {
+  background-color: darkgray;
+  border-color: #000;
+}
+
+.navbar-default .navbar-brand {
+  color: #4e4e4e;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #4e4e4e;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+  border-color: lightgrey;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #4e4e4e;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: lightgrey;
+}
+
+@media (min-width: 768px) {
+  #bs-example-navbar-collapse-1 {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-collapse {
+    background-color: white;
+  }
+
+  .container-content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .navbar-header {
+    border-bottom: 1px solid black;
+  }
+
+  li:nth-of-type(1) {
+    border-top: 0;
+  }
+}
